@@ -1,0 +1,252 @@
+body{
+    overflow-y: scroll;
+    overflow-x: auto;
+}
+ul{
+    list-style-type: none;
+    position: absolute;
+}
+
+.firstline{
+    width: 100%;
+    background-color:#316DC3;
+    padding: 0.1%;
+    display: inline-block;
+}
+
+div ul a li img{
+    width: 20px;
+    background: transparent;
+}
+
+ul a{
+    display: inline-block;
+    margin-left: 25px;
+}
+.buttons{
+    position: absolute;
+    top: 10px;
+    right: 40px;
+}
+.secondline{
+    position: fixed;
+    background-color: #F7F8FA;
+    width: 100%;
+    height: 70px;
+    z-index: 999;
+}
+
+div>img{
+    width: 220px;
+    background: transparent;
+}
+
+.second2{
+    display: inline-block;
+    position: relative;
+    }
+
+div.secondline ul.second2 a{
+    padding: 7px;
+    border: 1px solid transparent; 
+    border-radius: 50px;
+    text-decoration: none;
+    width: auto;
+    color: black;
+    margin-left: 20px;
+}
+
+div.secondline ul.second2 a:hover{
+    background-color: #316DC3;
+    border-radius: 50px;
+    color: #F7F8FA;
+}
+.label1{
+    font-size: 45px;
+    display: inline-block;
+    color: #316DC3;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 35%;
+}
+.label2{
+    font-size: 45px;
+    display: inline-block;
+    color: #427900;
+    font-weight: bolder;
+    font-family:'Courier New', Courier, monospace;
+    margin-left: 2%;
+}
+.center{
+    width: 100%;
+    background-color: #F7F8FA;
+    margin-top: 150px;
+}
+div p img{
+    width: 1500px;
+    height: 500px;
+    display: inline-block;
+}
+
+.pclass{
+    color: #878888;
+    word-spacing: 0.5em;
+    line-height: 1.5em;
+    margin: 0px 200px 0px 200px;
+}
+.pclasstop{
+    display: inline-block;
+    color: whitesmoke;
+    margin-left: 350px;
+}
+.figures{
+    margin: 10px 5px;
+    display: inline-block;
+    width: 23%;
+}
+.line4{
+    width: 100%;
+    background-color: #316DC3;
+    padding: 4% 0%;
+}
+.figures img{
+    height: 40px;
+    width: 40px;
+    margin-left: 70px;
+}
+.runningfigures{
+    font-size: 3em;
+    color: #F7F8FA;
+    margin-left: 30px;
+    display: block;
+}
+.line4text{
+    display: inline-block;
+    color: #F7F8FA;
+    font-weight: bolder;
+}
+.line4style{
+    display: inline-block;
+    color: #00ff00;
+    font-weight: bolder;
+    font-size: 1.25em;
+}
+.firsmallimg{
+    width: 40px;
+    height: 40px;
+    margin-left: 45%;
+}
+.secsmallimg{
+    width: 40px;
+    height: 40px;
+    margin-left: 50%;
+}
+.cards{
+    width: 25%;
+    background-color: white;
+    display: inline-block;
+    margin: 20px 40px;
+    text-align: center;
+}
+.single{
+    color: #316DC3;
+    font-weight: bold;
+    font-size: 1.25em;
+    display: block;
+    margin: 30px 0px 20px 0px;
+}
+.thrsmallimg{
+    width: 75px;
+    height: 75px;
+    margin: 30px 0px -5px 0px;
+}
+.footer{
+    width: auto;
+    background-color: white;
+}
+.label3{
+    display: block;
+    color: #316DC3;
+    font-weight: bolder;
+    margin: 10px 10px 30px 20px;
+}
+.seven{
+    display: inline-block;
+    width: 65%;
+    text-align: center;
+}
+.mup{
+    display: inline-block;
+    width: 300px;
+    height: 70px;
+    margin: 10px 5px 60px 15px;
+    background-color: #F7F8FA;
+}
+.fsmallimg{
+    width: 20%;
+    height: 70%;
+    display: inline-block;
+    margin-left: 10px;
+}
+.label4{
+    display: inline-block;
+    width: auto;
+    font-size: 1em;
+    font-weight: bold;
+    color: #316DC3;
+    margin: 0px 0px 0px 15px;
+}
+.eight{
+    display: inline-block;
+    width: 30%;
+    margin: 50px 10px;
+}
+.nine{
+    display: inline-block;
+    width: 200px;
+    height: 150px;
+    margin: 0 15px;
+}
+.base{
+    width: 100%;
+    height: auto;
+    background-color: #25272E;
+}
+.sl{
+    color: #BBBBBB;
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+}
+.vsmallimg{
+    width: 20px;
+    height: 20px;
+}
+.label5{
+    display: inline-block;
+    color: #F7F8FA;
+    width: auto;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+.baseline{
+    width: 100%;
+    height: 50px;
+    display: block;
+    background-color: #316DC3;
+    color: #F7F8FA;
+}
+.label6{
+    margin-left: 80px;
+}
+.slidingdiv{
+    height: auto;
+    width: 100%;
+}
+
+.slidingimg{
+    height: 500px;
+    width: fit-content;
+    margin-top: 85px;
+    margin-left: -20px;
+}
